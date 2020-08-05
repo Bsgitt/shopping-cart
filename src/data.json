@@ -2,57 +2,64 @@
   "products": [
     {
       "_id": "nk1",
+      "brand": ["Nike"],
       "title": "nike Air Jordan",
       "images": "/images/jordan.jpg",
-      "description": "fahsion",
+      "description": "Fahsion",
       "price": 500,
       "avalibleSize": ["EU40", "EU41", "EU42", "EU44"]
     },
     {
       "_id": "nk2",
       "title": "nike Zoom",
+      "brand": ["Nike"],
       "images": "/images/nkZoom.jpg",
-      "description": "Sport ,Running",
+      "description": "SportRunning",
       "price": 500,
       "avalibleSize": ["EU40", "EU41", "EU42", "EU44"]
     },
     {
       "_id": "nk3",
       "title": "nike Phantom",
+      "brand": ["Nike"],
       "images": "/images/phantomVNM.jpg",
-      "description": "Sport,Football",
+      "description": "SportFootball",
       "price": 300,
       "avalibleSize": ["EU40", "EU41", "EU42", "EU44"]
     },
     {
       "_id": "add1",
-      "title": "Addidas_NMD",
+      "title": "Adidas_NMD",
+      "brand": ["Adidas"],
       "images": "/images/NMD.jpg",
-      "description": "fahsion",
+      "description": "Fahsion",
       "price": 205,
       "avalibleSize": ["EU40", "EU41", "EU42", "EU44"]
     },
     {
       "_id": "add2",
       "title": "SupperStar",
+      "brand": ["Adidas"],
       "images": "/images/SuperStar.jpg",
-      "description": "Minimal",
+      "description": "Fahsion",
       "price": 200,
       "avalibleSize": ["EU40", "EU41", "EU42", "EU44"]
     },
     {
       "_id": "add3",
       "title": "StanSmith",
+      "brand": ["Adidas"],
       "images": "/images/StanSmith.jpg",
-      "description": "fahsion",
+      "description": "Fahsion",
       "price": 250,
       "avalibleSize": ["EU40", "EU41", "EU42", "EU44"]
     },
     {
       "_id": "Balen_1",
       "title": "YEEZY350",
+      "brand": ["Balenciaga"],
       "images": "/images/Balen.jpg",
-      "description": "fahsion",
+      "description": "Fahsion",
       "price": 500,
       "avalibleSize": ["EU40", "EU41", "EU42", "EU44"]
     }

@@ -13,14 +13,17 @@ export default class Products extends Component {
                   <img
                     src={product.images}
                     alt={product.title}
-                    width='70%'
+                    width='50%'
                     height='90%'
                   ></img>
                   <p>{product.title}</p>
                 </a>
                 <div className='product-price'>
                   <div>{formatCurrency(product.price)}</div>
-                  <button> Add To Cart</button>
+                  <button onClick={() => this.props.addToCart(product)}>
+                    {" "}
+                    Add To Cart
+                  </button>
                 </div>
               </div>
             </li>

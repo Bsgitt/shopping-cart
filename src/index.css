@@ -165,3 +165,19 @@ input {
   justify-content: center;
   align-items: center;
 }
+.products-details {
+  max-height: 100vh;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+}
+.products-details-description {
+  flex: 1 1;
+  margin: 1rem;
+}
+.close-madal {
+  position: absolute;
+  right: 1rem;
+  top: 2.5rem;
+  z-index: 1000;
+}

@@ -45,6 +45,7 @@ class Products extends Component {
                         height='90%'
                       ></img>
                       <p>{product.title}</p>
+                      <p>{product.brand}</p>
                     </a>
                     <div className='product-price'>
                       <div>{formatCurrency(product.price)}</div>
@@ -105,6 +106,9 @@ class Products extends Component {
   }
 }
 
-export default connect((state) => ({ products: state.products.items }), {
-  fetchProducts,
-})(Products);
+export default connect(
+  (state) => ({ products: state.products.filteredItems }),
+  {
+    fetchProducts,
+  }
+)(Products);
